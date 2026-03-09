@@ -1,4 +1,4 @@
-class AddSub:
+class Adder:
     def __init__(self):
         pass
 

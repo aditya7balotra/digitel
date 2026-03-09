@@ -1,5 +1,5 @@
 from wire import Wire
-from circuits import HalfAdder, FullAdder
+from combinational.arithmetic import HalfAdder, FullAdder
 from gates import Gate
 
 # w0 = Wire(1)

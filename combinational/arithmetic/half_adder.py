@@ -1,8 +1,8 @@
 from gates import Gate
 from wire import Wire
-from . import AddSub
+from . import Adder
 
-class HalfAdder(AddSub):
+class HalfAdder(Adder):
     def __init__(self):
         self._w0 = Wire(0)
         self._w1 = Wire(0)
