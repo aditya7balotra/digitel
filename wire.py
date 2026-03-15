@@ -12,7 +12,8 @@ class Wire:
         self._typecheck(bit)
         self._bitState = bit
 
-    def _typecheck(self, bit):
+    @staticmethod
+    def _typecheck(bit):
         if bit not in [0, 1]:
             raise ValueError("Can be either 0 or 1")
         
